@@ -1,0 +1,606 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+	text-decoration: none;
+	-webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Circe Regular'; 
+	src: url(../fonts/CRC55.otf); 
+}
+
+@font-face {
+	font-family: 'Circe Light'; 
+	src: url(../fonts/CRC35.otf); 
+}
+
+@font-face {
+	font-family: 'Circe Bold'; 
+	src: url(../fonts/Circe-Bold.otf); 
+}
+
+@font-face {
+	font-family: 'Circe Extra Bold'; 
+	src: url(../fonts/Circe-ExtraBold.otf); 
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'), url('../404.html') format('woff2'), url('../404.html') format('woff'), url('../fonts/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+body{
+	font-family: 'Circe Regular';
+	font-size: 22px;
+	color: #28546d;
+}
+
+img{
+	max-width: 100%;
+}
+
+ul, ol{
+	list-style: none;
+}
+
+.container{
+	width: 1250px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.bold {
+    font-family: 'Circe Bold';
+}
+
+.light {
+    font-family: 'Circe Light';
+}
+
+.h1 {
+    color: #5098b6;
+    font-size: 66px;
+    text-align: center;
+}
+
+.h2 {
+    font-size: 31px;
+    color: #5098b6;
+}
+
+
+/* Header */
+
+header {
+    background-color: #28546d;
+    height: 930px;
+    background: url(../images/headerbg2.png);
+    background-size: cover;
+}
+
+header .container{
+    position: relative;
+}
+
+.pyramida {
+    width: 100%;
+    height: 557px;
+    position: absolute;
+    background: url(../images/pyramid.png) no-repeat;
+    top: 210px;
+    left: 0;
+}
+
+.top {
+    margin-bottom: 93px;
+}
+
+.logo_nav {
+    display: flex;
+    align-items: flex-end;
+    padding-left: 72px;
+}
+
+.logo {
+    width: 88px;
+    margin-right: 162px;
+}
+
+.logo img{
+	display: block;
+}
+
+ul.menu {
+    margin-top: -43px;
+}
+
+ul.menu li {
+    display: inline-block;
+    float: left;
+    margin-right: 50px;
+}
+
+ul.menu li:last-child{
+	margin-right: 0;
+}
+
+ul.menu li a {
+    font-family: 'Open Sans';
+    font-size: 21px;
+    color: #fff;
+    border-bottom: 1px solid #698899;
+    padding-bottom: 2.5px;
+}
+
+ul.menu li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+.middle {
+    width: 1140px;
+    padding-top: 64px;
+    position: relative;
+    z-index: 10;
+}
+
+.header_text {
+    float: right;
+    color: #fff;
+    max-width: 461px;
+}
+
+.header_text_content {
+    font-size: 36px;
+}
+
+.header_link {
+    margin-top: 60px;
+}
+
+.header_link > div {
+    display: table;
+    margin-bottom: 22.5px;
+}
+
+.header_link img {
+    width: 33px;
+    display: inline-block;
+    float: left;
+}
+
+.header_link > div span {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-left: 12px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+}
+
+/* Header */
+
+/* Main */
+
+.whatis_cont {
+    text-align: center;
+    position: relative;
+    border-radius: 30px;
+    margin-top: -90px;
+    padding-top: 90px;
+    padding-bottom: 219px;
+    z-index: 10;
+    background: #fff;
+    box-shadow: 0px 0px 60px;
+}
+
+.scroll_down {
+   	position: absolute;
+    top: -55px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.scroll_down span {
+    display: block;
+    font-size: 16px;
+    color: #fff;
+}
+
+.scroll_down img {
+    width: 138px;
+}
+
+.icon_mini_logo{
+	width: 35px;
+	margin: 0 auto 27px;
+}
+
+.icon_mini_logo img{
+	display: block;
+}
+
+.whatis_cont_text {
+    max-width: 872px;
+    margin: 16px auto;
+}
+
+.coin {
+    position: absolute;
+    width: 431px;
+    width: 500px;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -315px;
+}
+
+img.dotted {
+    width: 20px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-7px);
+}
+
+#how_can {
+    margin-top: 300px;
+}
+
+.section_cont {
+    padding-left: 144px;
+    padding-top: 80px;
+    position: relative;
+}
+
+.section_title {
+    display: flex;
+    align-items: flex-end;
+    color: #5098b6;
+    position: relative;
+    z-index: 10;
+}
+
+.section_name {
+    font-family: 'Circe Extra Bold';
+    font-size: 44px;
+    line-height: 44px;
+    margin-right: 60px;
+    color: #5098b6;
+}
+
+.section_desc {
+    font-size: 32px;
+    line-height: 35px;
+}
+
+.section_cont:before {
+    content: '1';
+    font-size: 412px;
+    font-family: 'Circe Extra Bold';
+    color: #f1f6f8;
+    position: absolute;
+    top: 0;
+    line-height: 337px;
+    z-index: -1;
+    left: 58px;
+}
+
+.how_can_logo {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.how_can_logo > div {
+    width: 25%;
+    height: 215px;
+    border-bottom: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.how_can_logo > div:nth-child(4n+4){
+	border-right: none;
+}
+
+.how_can_logo > div:nth-child(n+9){
+	border-bottom: none;
+}
+
+.show_all_logo{
+    display: none;
+}
+
+#mine_game {
+    margin-top: 30px;
+    padding-bottom: 90px;
+    background: linear-gradient(to top, #f7fafb 0%,#f8fafb 35%,#feffff 70%, #ffffff 100%);
+}
+
+#mine_game .section_cont:before {
+	content: '2';
+	z-index: 2;
+}
+
+.min_link {
+    min-width: 230px;
+}
+
+.spec_content {
+    padding-left: 144px;
+    padding-bottom: 70px;
+    display: flex;
+    margin-top: 50px;
+    position: relative;
+    z-index: 10;
+}
+
+.spec_content > div {
+    margin-right: 95px;
+}
+
+.spec_content > div:last-child{
+    margin-right: 0;
+}
+
+.icon_gal {
+    width: 65px;
+}
+
+.spec_text span {
+    display: block;
+}
+
+.min_pools {
+    padding-left: 144px;
+}
+
+.min_pools_content {
+    padding-top: 45px;
+    border-top: 1px solid #e2e3e4;
+}
+
+.min_text_link {
+    margin-top: 30px;
+    display: flex;
+}
+
+.min_text {
+    max-width: 565px;
+    margin-right: 100px;
+}
+
+ul.link li a {
+    color: #97cfc9;
+}
+
+ul.link li a:hover {
+    text-decoration: underline;
+}
+
+.hold_game_content {
+    display: flex;
+    height: 450px;
+    align-items: center;
+}
+
+.gwallet {
+    width: 189px;
+    margin-bottom: 20px;
+}
+
+.holytransaction {
+    width: 321px;
+    margin-bottom: 67px;
+}
+
+.coinomi {
+    width: 227px;
+}
+
+.wallet {
+    width: 280px;
+    margin-right: 75px;
+}
+
+.hold_game_title {
+    padding-left: 144px;
+    width: 269px;
+    margin-right: 50px;
+    position: relative;
+}
+
+.hold_game_title:before {
+    content: '3';
+    font-size: 412px;
+    font-family: 'Circe Extra Bold';
+    color: #f1f6f8;
+    position: absolute;
+    top: -104px;
+    line-height: 337px;
+    z-index: -1;
+    left: 58px;
+}
+
+.gwallet_link img {
+    width: 17px;
+}
+
+.gwallet_link a {
+    color: #28546d;
+    display: block;
+    width: 225px;
+    height: 50px;
+    text-align: center;
+    border: 1px solid;
+    border-radius: 10px;
+    line-height: 50px;
+}
+
+.gwallet_text {
+    margin-bottom: 30px;
+}
+
+/* Main */
+
+/* Footer */
+
+footer {
+    background: #fbfafa;
+}
+
+.footer_content {
+    display: flex;
+    height: 240px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul.footer_menu li {
+    display: inline-block;
+    margin-right: 25px;
+}
+
+ul.footer_menu li a {
+    font-family: 'Open Sans';
+    font-size: 21px;
+    color: #28546d;
+}
+
+.footer_nav {
+    padding-left: 72px;
+}
+
+.copyright {
+    position: relative;
+    font-size: 15px;
+    color: #aeacac;
+}
+
+.copyright span{
+	position: absolute;
+	left: -20px;
+	top: -2px;
+}
+
+.copyright a {
+    color: #aeacac;
+    border-bottom: 1px solid;
+}
+
+.footer_logo {
+    width: 58px;
+}
+
+/* Footer */
+
+/* Policy */
+
+.page header{
+    height: auto;
+    padding-bottom: 90px;
+}
+
+.page_name {
+    margin: 60px 0 80px;
+    text-align: center;
+    color: #fff;
+    font-size: 66px;
+}
+
+.page .whatis_cont_text {
+    text-align: left;
+    color: #28546d;
+    font-size: 21px;
+    word-wrap: break-word;
+}
+
+.page .whatis_cont_text p{
+    margin-bottom: 1rem;
+}
+
+.page .whatis_cont_text h2{
+    letter-spacing: 1px;  
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.page .whatis_cont_text ul{
+    display: block;
+    list-style-type: disc;
+    padding-left: 40px;
+    margin-bottom: 1rem;
+}
+
+.page main{
+    padding-bottom: 110px;
+}
+
+/* Cookie */
+
+#cookie {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    padding: 35px 0 30px;
+    background: #e8e8e8;
+    z-index: 30;
+    opacity: .8;
+}
+
+.cookie_content {
+    display: flex;
+}
+
+.cookie_title {
+    min-width: 190px;
+    margin-right: 70px;
+    font-size: 28px;
+}
+
+a.cookie_link {
+    display: block;
+    width: 225px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    background: #5098b6;
+    color: #fff;
+    border-radius: 30px;
+    margin-left: 80px;
+    font-size: 17px;
+    letter-spacing: 2px;
+}
+
+.cookie_text {
+    font-size: 17px;
+}
+
+.cookie_text a{
+    color: #28546d;
+    border-bottom: 1px solid;
+
+}
+
+.decline {
+    margin-left: 80px;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Circe light';
+}
+
+.decline a {
+    color: #28546d;
+    border-bottom: 1px solid;
+}
